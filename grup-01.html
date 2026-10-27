@@ -1363,6 +1363,10 @@ PA.4x250W datasheet'ini aç"><svg class="" viewBox="0 0 24 24" fill="currentColo
     });
     /* ürün adı / kategori / grup eşleşmesi varsa yalnızca onlar; yoksa özellik eşleşmeleri */
     var hits = (main.length || fuzzyMain.length) ? main.concat(fuzzyMain) : specHits.concat(fuzzySpec);
+    /* "sütun hoparlör" aramasında ZENITH AUDIO ürünleri sonuçların başında */
+    if (q.indexOf(norm('sütun hoparlör')) !== -1) {
+      hits = hits.map(function(h, i){ return {h: h, i: i}; }).sort(function(x, y){ var zx = x.h.it.b === 'ZENITH AUDIO' ? 0 : 1, zy = y.h.it.b === 'ZENITH AUDIO' ? 0 : 1; return (zx - zy) || (x.i - y.i); }).map(function(x){ return x.h; });
+    }
     res.hidden = false;
     rcount.textContent = hits.length + ' sonuç';
     if (!hits.length) {
