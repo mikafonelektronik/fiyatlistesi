@@ -1172,38 +1172,17 @@ input[type=search]::-webkit-input-placeholder{opacity:1}
     return u;
   }
   function savePdfBytes(bytes, pages){
-    /* Teklif listesi penceresi açıksa önce kapatılır; yoksa önizleme liste arkasında kalır. */
+    /* PDF'i doğrudan indirir (önizleme JPEG'i değil, gerçek PDF dosyası). */
     if (pdEl && pdEl.open) pdEl.close();
-    var touch = (window.matchMedia && matchMedia('(pointer: coarse)').matches) || ('ontouchstart' in window);
-    var ov = document.createElement('div');
-    ov.setAttribute('role', 'dialog');
-    ov.style.cssText = 'position:fixed;inset:0;z-index:99999;background:#0a1a2f;display:flex;flex-direction:column;box-sizing:border-box;';
-    var bar = document.createElement('div');
-    bar.style.cssText = 'display:flex;gap:10px;align-items:center;justify-content:space-between;background:#fff;padding:12px 16px;font:600 14px Poppins,sans-serif;color:#0a1a2f;flex:0 0 auto;';
-    var ttl = document.createElement('span'); ttl.textContent = 'Mikafon Teklif · ' + (pages.length) + ' sayfa';
-    var btns = document.createElement('div'); btns.style.cssText = 'display:flex;gap:8px;';
-    var close = document.createElement('button'); close.type = 'button'; close.textContent = 'Kapat';
-    close.style.cssText = 'padding:8px 14px;border-radius:8px;border:1px solid #e3dfd5;background:#fff;color:#0a1a2f;cursor:pointer;font:600 14px Poppins,sans-serif;';
-    btns.appendChild(close);
-    bar.appendChild(ttl); bar.appendChild(btns);
-    var scroll = document.createElement('div');
-    scroll.style.cssText = 'flex:1;overflow:auto;padding:16px;display:flex;flex-direction:column;align-items:center;gap:16px;';
-    pages.forEach(function(src, i){
-      var im = document.createElement('img'); im.src = src; im.alt = 'Teklif sayfa ' + (i + 1);
-      im.style.cssText = 'width:100%;max-width:720px;height:auto;background:#fff;box-shadow:0 6px 24px rgba(0,0,0,.35);';
-      scroll.appendChild(im);
-    });
-    var note = document.createElement('p');
-    note.style.cssText = 'margin:0;color:#fff;font:400 13px Poppins,sans-serif;text-align:center;';
-    var NOTE_TOUCH = 'Sayfayı kaydetmek için görüntüye uzun basıp "Fotoğrafa Ekle" ya da "Resmi kaydet" seçebilirsiniz.';
-    var NOTE_DESK = 'Sayfayı kaydetmek için görüntüye sağ tıklayıp "Resmi farklı kaydet" seçebilirsiniz.';
-    note.textContent = touch ? NOTE_TOUCH : NOTE_DESK;
-    scroll.appendChild(note);
-    ov.appendChild(bar); ov.appendChild(scroll);
-    close.addEventListener('click', function(){ ov.remove(); });
-    document.body.appendChild(ov);
+    var blob = new Blob([bytes], { type: 'application/pdf' });
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement('a');
+    a.href = url; a.download = 'Mikafon-Teklif.pdf';
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(function(){ URL.revokeObjectURL(url); }, 15000);
     return Promise.resolve();
   }
+
   function makePdf(rows, pct, totals, btn){
     var label = btn ? btn.textContent : '';
     var lhImg = null;
