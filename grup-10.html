@@ -123,7 +123,8 @@ h1,h2,h3,.display{font-family:'Poppins',system-ui,sans-serif;letter-spacing:-.02
 .ghero .big{font-family:'Poppins',sans-serif;font-weight:700;font-size:clamp(70px,11vw,132px);line-height:.85;letter-spacing:-.05em;color:transparent;-webkit-text-stroke:1.5px rgba(159,227,247,.8)}
 .ghero .crumb{font-size:13px;color:#9fb6d1;margin-bottom:10px}
 .ghero .crumb a{color:#cfe9f7;border-bottom:1px solid rgba(255,255,255,.25)}
-.ghero h1{font-size:clamp(28px,4.2vw,46px);line-height:1.08;margin:0 0 10px;font-weight:700;max-width:24ch}
+.ghero h1{font-size:clamp(28px,4.2vw,46px);line-height:1.08;margin:0 0 10px;font-weight:700;max-width:none;white-space:nowrap}
+@media (max-width:760px){.ghero h1{white-space:normal}}
 .ghero .count{color:#c4d4e8;font-size:15px}
 .tools{position:relative;padding:0 0 26px}
 .tools .wrap{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
