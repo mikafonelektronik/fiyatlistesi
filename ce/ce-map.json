@@ -1,0 +1,1733 @@
+{
+  "15950370": {
+    "model": "ESCO/DOC 8",
+    "file": "15950370.pdf",
+    "ticari_ad": "8 Zones, (A+B), LAN&WAN TCP/IP, EN54-16"
+  },
+  "15950380": {
+    "model": "ESCO/DOC 16",
+    "file": "15950380.pdf",
+    "ticari_ad": "16 Zones, (A+B), LAN&WAN TCP/IP, EN54-16"
+  },
+  "15950448": {
+    "model": "ESCO/D4250IP",
+    "file": "15950448.pdf",
+    "ticari_ad": "15950448"
+  },
+  "15950722": {
+    "model": "ESCO/DCR30A",
+    "file": "15950722.pdf",
+    "ticari_ad": "Battery Charger Unit with 24V/48V Output,"
+  },
+  "15950140": {
+    "model": "ESCO/MA7",
+    "file": "15950140.pdf",
+    "ticari_ad": "15950140"
+  },
+  "15950143": {
+    "model": "ESCO/MA7POE",
+    "file": "15950143.pdf",
+    "ticari_ad": "15950143"
+  },
+  "15950163": {
+    "model": "ESCO/MA1POE",
+    "file": "15950163.pdf",
+    "ticari_ad": "Single-zone TCP/IP POE Compatible"
+  },
+  "15950165": {
+    "model": "ESCO/MA1",
+    "file": "15950165.pdf",
+    "ticari_ad": "Single-zone TCP/IP Announcement Microphone."
+  },
+  "15950166": {
+    "model": "ESCO/MA2",
+    "file": "15950166.pdf",
+    "ticari_ad": "15950166"
+  },
+  "15950167": {
+    "model": "ESCO/MA3",
+    "file": "15950167.pdf",
+    "ticari_ad": "15950167"
+  },
+  "15950278": {
+    "model": "ESCO/C16",
+    "file": "15950278.pdf",
+    "ticari_ad": "Wall Mounted TCP/IP Contact Transfer Module, 16"
+  },
+  "12030540": {
+    "model": "EVA PM LCD",
+    "file": "12030540.pdf",
+    "ticari_ad": "5\" TFT Touch CANBUS Announcement and"
+  },
+  "12030550": {
+    "model": "CM100",
+    "file": "12030550.pdf",
+    "ticari_ad": "12030550"
+  },
+  "12030110": {
+    "model": "AM01",
+    "file": "12030110.pdf",
+    "ticari_ad": "1-Zone Emergency Control Module,"
+  },
+  "12020072": {
+    "model": "DP200",
+    "file": "12020072.pdf",
+    "ticari_ad": "12020072"
+  },
+  "12020075": {
+    "model": "DP500",
+    "file": "12020075.pdf",
+    "ticari_ad": "1000W Power Amplifier, Class D, TCP/IP, 2X500W,"
+  },
+  "12020077": {
+    "model": "DP1000",
+    "file": "12020077.pdf",
+    "ticari_ad": "2000W Power Amplifier, Class D, TCP/IP,"
+  },
+  "12020080": {
+    "model": "DP4500",
+    "file": "12020080.pdf",
+    "ticari_ad": "100V, 4 Channel TCP/IP Based Class-D Power"
+  },
+  "15950200": {
+    "model": "ESCO/RP36",
+    "file": "15950200.pdf",
+    "ticari_ad": "15950200"
+  },
+  "15950255": {
+    "model": "ESCO/RP30IP",
+    "file": "15950255.pdf",
+    "ticari_ad": "1 Zone TCP/IP RTP Client Module with Horn"
+  },
+  "15950273": {
+    "model": "ESCO/RP10W",
+    "file": "15950273.pdf",
+    "ticari_ad": "Channel TCP/IP Audio Adjustment Module,"
+  },
+  "12090190": {
+    "model": "AK E-V2",
+    "file": "12090190.pdf",
+    "ticari_ad": "Programmable Chime Clock 19'' 1U + Desktop"
+  },
+  "12180130": {
+    "model": "HSA1VR",
+    "file": "12180130.pdf",
+    "ticari_ad": "15W, 100V, Volume Control, Relay, Recessed,"
+  },
+  "12180150": {
+    "model": "HSA3VR",
+    "file": "12180150.pdf",
+    "ticari_ad": "25W, 100V, Volume Control, Relay, Recessed,"
+  },
+  "15950190": {
+    "model": "ESCO/NSM",
+    "file": "15950190.pdf",
+    "ticari_ad": "15950190"
+  },
+  "12030162": {
+    "model": "EVAC",
+    "file": "12030162.pdf",
+    "ticari_ad": "24VDC Relay Power Supply supplies volume"
+  },
+  "12020110": {
+    "model": "DC50",
+    "file": "12020110.pdf",
+    "ticari_ad": "100W Compact Amplifier, Public Announcement,"
+  },
+  "12020113": {
+    "model": "DC50Z",
+    "file": "12020113.pdf",
+    "ticari_ad": "100W Compact Amplifier, Class D, Public Address,"
+  },
+  "12020115": {
+    "model": "DC100",
+    "file": "12020115.pdf",
+    "ticari_ad": "200W Compact Amplifier, Class D, Public Address,"
+  },
+  "12020117": {
+    "model": "DC200",
+    "file": "12020117.pdf",
+    "ticari_ad": "12020117"
+  },
+  "12020120": {
+    "model": "DC200Z",
+    "file": "12020120.pdf",
+    "ticari_ad": "400W Compact Amplifier, Class D, Public"
+  },
+  "12020126": {
+    "model": "DA200",
+    "file": "12020126.pdf",
+    "ticari_ad": "400W Amplifier, Class D, 4Ω/50V/70V/100V"
+  },
+  "12020205": {
+    "model": "DR3050",
+    "file": "12020205.pdf",
+    "ticari_ad": ""
+  },
+  "12030105": {
+    "model": "MTX44V",
+    "file": "12030105.pdf",
+    "ticari_ad": "4x4 Matrix, 4x110W, 4 Ω Class-DAudio Mixer, 2x"
+  },
+  "16009540": {
+    "model": "LIVE 10",
+    "file": "16009540.pdf",
+    "ticari_ad": "16009540"
+  },
+  "16009545": {
+    "model": "LIVE 14",
+    "file": "16009545.pdf",
+    "ticari_ad": "16009545"
+  },
+  "16009555": {
+    "model": "LIVE 18",
+    "file": "16009555.pdf",
+    "ticari_ad": "16009555"
+  },
+  "16010181": {
+    "model": "EC 4UN",
+    "file": "16010181.pdf",
+    "ticari_ad": "16010181"
+  },
+  "16010185": {
+    "model": "EC 6UN",
+    "file": "16010185.pdf",
+    "ticari_ad": "16010185"
+  },
+  "39060125": {
+    "model": "CLUBXS 6+",
+    "file": "39060125.pdf",
+    "ticari_ad": ""
+  },
+  "39060130": {
+    "model": "CLUBXS 8",
+    "file": "39060130.pdf",
+    "ticari_ad": ""
+  },
+  "39060140": {
+    "model": "CLUBXS 10+",
+    "file": "39060140.pdf",
+    "ticari_ad": ""
+  },
+  "39060150": {
+    "model": "CLUBXS 12",
+    "file": "39060150.pdf",
+    "ticari_ad": ""
+  },
+  "39060030": {
+    "model": "DIGILIVE16",
+    "file": "39060030.pdf",
+    "ticari_ad": ""
+  },
+  "39060040": {
+    "model": "DIGILIVE16RS",
+    "file": "39060040.pdf",
+    "ticari_ad": ""
+  },
+  "39060027": {
+    "model": "DIGILIVE8C",
+    "file": "39060027.pdf",
+    "ticari_ad": ""
+  },
+  "39060047": {
+    "model": "DIGITRACK 18",
+    "file": "39060047.pdf",
+    "ticari_ad": ""
+  },
+  "39060048": {
+    "model": "MIXBRIDGE8",
+    "file": "39060048.pdf",
+    "ticari_ad": ""
+  },
+  "16020170": {
+    "model": "MX4B",
+    "file": "16020170.pdf",
+    "ticari_ad": "16020170"
+  },
+  "16020180": {
+    "model": "MX8B",
+    "file": "16020180.pdf",
+    "ticari_ad": "2x350W, 8 mono + 1st, 5 band EQ, USB, 48V DC"
+  },
+  "16010145": {
+    "model": "PRO 2000",
+    "file": "16010145.pdf",
+    "ticari_ad": "16010145"
+  },
+  "16820110": {
+    "model": "CTD-300",
+    "file": "16820110.pdf",
+    "ticari_ad": ""
+  },
+  "39060891": {
+    "model": "QX2 - 1300",
+    "file": "39060891.pdf",
+    "ticari_ad": ""
+  },
+  "39060892": {
+    "model": "QX2 - 2000",
+    "file": "39060892.pdf",
+    "ticari_ad": ""
+  },
+  "39060888": {
+    "model": "DQX4-4000",
+    "file": "39060888.pdf",
+    "ticari_ad": ""
+  },
+  "39060890": {
+    "model": "DQX4-8000",
+    "file": "39060890.pdf",
+    "ticari_ad": ""
+  },
+  "36060840": {
+    "model": "XA800",
+    "file": "36060840.pdf",
+    "ticari_ad": "AB two – channel power amp"
+  },
+  "36060850": {
+    "model": "XA2000",
+    "file": "36060850.pdf",
+    "ticari_ad": "AB two – channel power amp"
+  },
+  "36060860": {
+    "model": "XA3000",
+    "file": "36060860.pdf",
+    "ticari_ad": "AB two – channel power amp"
+  },
+  "36060870": {
+    "model": "XA5000",
+    "file": "36060870.pdf",
+    "ticari_ad": "AB two – channel power amp"
+  },
+  "16151500": {
+    "model": "MOB 8",
+    "file": "16151500.pdf",
+    "ticari_ad": "Echo-enabled squeegee speaker, 8'', 60W, 2-way,"
+  },
+  "16151650": {
+    "model": "MOB 12",
+    "file": "16151650.pdf",
+    "ticari_ad": "Echo-enabled squeegee speaker, 12'', 120W, 2MOB-12"
+  },
+  "16151655": {
+    "model": "MOB 15",
+    "file": "16151655.pdf",
+    "ticari_ad": "Echo-enabled squeegee speaker, 15'', 130W, 2MOB-15"
+  },
+  "39061050": {
+    "model": "DIRECT 101MX",
+    "file": "39061050.pdf",
+    "ticari_ad": ""
+  },
+  "39061010": {
+    "model": "CORE 121",
+    "file": "39061010.pdf",
+    "ticari_ad": ""
+  },
+  "39060910": {
+    "model": "VORTEX 10A",
+    "file": "39060910.pdf",
+    "ticari_ad": ""
+  },
+  "39060915": {
+    "model": "VORTEX 12A",
+    "file": "39060915.pdf",
+    "ticari_ad": ""
+  },
+  "39040310": {
+    "model": "VENTURE 12",
+    "file": "39040310.pdf",
+    "ticari_ad": ""
+  },
+  "39040335": {
+    "model": "VENTURE 12A",
+    "file": "39040335.pdf",
+    "ticari_ad": ""
+  },
+  "39040320": {
+    "model": "VENTURE 15",
+    "file": "39040320.pdf",
+    "ticari_ad": "39040320"
+  },
+  "39040340": {
+    "model": "VENTURE 15AP",
+    "file": "39040340.pdf",
+    "ticari_ad": ""
+  },
+  "14913038": {
+    "model": "BLA206ABS",
+    "file": "14913038.pdf",
+    "ticari_ad": ""
+  },
+  "14913035": {
+    "model": "BLA210A",
+    "file": "14913035.pdf",
+    "ticari_ad": ""
+  },
+  "14913036": {
+    "model": "BLA 210SUB18A",
+    "file": "14913036.pdf",
+    "ticari_ad": "14913036"
+  },
+  "14913037": {
+    "model": "BLA SUB218A",
+    "file": "14913037.pdf",
+    "ticari_ad": "14913037"
+  },
+  "16150590": {
+    "model": "BASS 18A",
+    "file": "16150590.pdf",
+    "ticari_ad": "16150590"
+  },
+  "39040360": {
+    "model": "VENTURE 18SAP",
+    "file": "39040360.pdf",
+    "ticari_ad": ""
+  },
+  "39150790": {
+    "model": "TRX218S",
+    "file": "39150790.pdf",
+    "ticari_ad": "39150790"
+  },
+  "39150850": {
+    "model": "V218S",
+    "file": "39150850.pdf",
+    "ticari_ad": ""
+  },
+  "12150210": {
+    "model": "H232T",
+    "file": "12150210.pdf",
+    "ticari_ad": "10W, 100V, Single Column Speaker, Medium Size"
+  },
+  "12150250": {
+    "model": "H235T",
+    "file": "12150250.pdf",
+    "ticari_ad": "2x10W, 100V, Dual Column Speaker, Medium Size"
+  },
+  "12150270": {
+    "model": "H236",
+    "file": "12150270.pdf",
+    "ticari_ad": "12150270"
+  },
+  "12150290": {
+    "model": "H236T",
+    "file": "12150290.pdf",
+    "ticari_ad": "3x10W, 100V, Triple Column Speaker (with"
+  },
+  "16150380": {
+    "model": "CLASS 5T",
+    "file": "16150380.pdf",
+    "ticari_ad": "16150380"
+  },
+  "16150681": {
+    "model": "DVR 6T",
+    "file": "16150681.pdf",
+    "ticari_ad": "16150681"
+  },
+  "16150800": {
+    "model": "MULTI 5T",
+    "file": "16150800.pdf",
+    "ticari_ad": "16150800"
+  },
+  "16150885": {
+    "model": "SM1340",
+    "file": "16150885.pdf",
+    "ticari_ad": "16150885"
+  },
+  "16150882": {
+    "model": "SM1340T",
+    "file": "16150882.pdf",
+    "ticari_ad": "5'', 40W, 8 Ω -100V Stepped, Full Range Projector"
+  },
+  "16150889": {
+    "model": "PRO 5TN",
+    "file": "16150889.pdf",
+    "ticari_ad": "16150889"
+  },
+  "12150050": {
+    "model": "PCB6T",
+    "file": "12150050.pdf",
+    "ticari_ad": "6W, 100V, Surface Mounted Hemisphere Speaker,"
+  },
+  "12150090": {
+    "model": "PCB10T",
+    "file": "12150090.pdf",
+    "ticari_ad": "10W, 100V, Surface Mounted Hemisphere"
+  },
+  "16150072": {
+    "model": "GARDEN 4T",
+    "file": "16150072.pdf",
+    "ticari_ad": "16150072"
+  },
+  "16150913": {
+    "model": "HIFLY 4T",
+    "file": "16150913.pdf",
+    "ticari_ad": "2 way wall speaker, 4'', 10-15-20-30W/100V, 60W,"
+  },
+  "16150915": {
+    "model": "HIFLY 5T",
+    "file": "16150915.pdf",
+    "ticari_ad": "2 way wall speaker, 5'', 10-15-20-30W/100V,"
+  },
+  "20120080": {
+    "model": "SW0550",
+    "file": "20120080.pdf",
+    "ticari_ad": "20120080"
+  },
+  "20120085": {
+    "model": "SW0660",
+    "file": "20120085.pdf",
+    "ticari_ad": "20120085"
+  },
+  "15940220": {
+    "model": "CS506EN",
+    "file": "15940220.pdf",
+    "ticari_ad": "3/6W, 100V, IP21 Ceiling Speaker EN54-24:2008"
+  },
+  "16140010": {
+    "model": "TAV5T",
+    "file": "16140010.pdf",
+    "ticari_ad": "16140010"
+  },
+  "16140060": {
+    "model": "KAP 6T",
+    "file": "16140060.pdf",
+    "ticari_ad": "16140060"
+  },
+  "16140080": {
+    "model": "WET 3T",
+    "file": "16140080.pdf",
+    "ticari_ad": "16140080"
+  },
+  "16140210": {
+    "model": "PROJECT 5T",
+    "file": "16140210.pdf",
+    "ticari_ad": "16140210"
+  },
+  "16140220": {
+    "model": "PROJECT 6T",
+    "file": "16140220.pdf",
+    "ticari_ad": "16140220"
+  },
+  "16140230": {
+    "model": "PROJECT 8T",
+    "file": "16140230.pdf",
+    "ticari_ad": "16140230"
+  },
+  "16140270": {
+    "model": "BIANCO6T",
+    "file": "16140270.pdf",
+    "ticari_ad": "16140270"
+  },
+  "16140590": {
+    "model": "HF 62",
+    "file": "16140590.pdf",
+    "ticari_ad": "16140590"
+  },
+  "16850900": {
+    "model": "OUT-200T",
+    "file": "16850900.pdf",
+    "ticari_ad": ""
+  },
+  "16850905": {
+    "model": "OUT-250T",
+    "file": "16850905.pdf",
+    "ticari_ad": ""
+  },
+  "15940230": {
+    "model": "HS5130EN",
+    "file": "15940230.pdf",
+    "ticari_ad": "10/15/30W, 100V, IP64 Horn Speaker, EN54HS5130EN"
+  },
+  "16140650": {
+    "model": "HRC30T",
+    "file": "16140650.pdf",
+    "ticari_ad": "16140650"
+  },
+  "12120160": {
+    "model": "HP80M",
+    "file": "12120160.pdf",
+    "ticari_ad": "80W, 16Ω, Flat External Pipe Speaker, Plastic,"
+  },
+  "12120180": {
+    "model": "HP80MT",
+    "file": "12120180.pdf",
+    "ticari_ad": "80W, 100V, Flat External Pipe Speaker, Plastic,"
+  },
+  "16140666": {
+    "model": "DP-25EEXT",
+    "file": "16140666.pdf",
+    "ticari_ad": "16140666"
+  },
+  "16140715": {
+    "model": "SMH 100TN",
+    "file": "16140715.pdf",
+    "ticari_ad": "SMH100T"
+  },
+  "16140716": {
+    "model": "TUN70T",
+    "file": "16140716.pdf",
+    "ticari_ad": "16140716"
+  },
+  "20120020": {
+    "model": "CS 205A",
+    "file": "20120020.pdf",
+    "ticari_ad": "20120020"
+  },
+  "20120060": {
+    "model": "SC20BRT",
+    "file": "20120060.pdf",
+    "ticari_ad": "20120060"
+  },
+  "20120150": {
+    "model": "SC35BRT",
+    "file": "20120150.pdf",
+    "ticari_ad": "20120150"
+  },
+  "20120160": {
+    "model": "SC50R",
+    "file": "20120160.pdf",
+    "ticari_ad": "20120160"
+  },
+  "20120100": {
+    "model": "NSC20BRT",
+    "file": "20120100.pdf",
+    "ticari_ad": "20120100"
+  },
+  "20120130": {
+    "model": "NSC50BRT",
+    "file": "20120130.pdf",
+    "ticari_ad": "20120130"
+  },
+  "20230050": {
+    "model": "SDB-1",
+    "file": "20230050.pdf",
+    "ticari_ad": "20230050"
+  },
+  "12120430": {
+    "model": "HH35S",
+    "file": "12120430.pdf",
+    "ticari_ad": "35W, 16Ω, Aluminum Pipe Speaker (Unit: NSU35B,"
+  },
+  "12120470": {
+    "model": "HH75S",
+    "file": "12120470.pdf",
+    "ticari_ad": "75W, 16Ω, Aluminum Pipe Speaker (Unit: NSU75B,"
+  },
+  "12120650": {
+    "model": "HH150S",
+    "file": "12120650.pdf",
+    "ticari_ad": "150W, 8Ω, Aluminum Pipe Speaker (Unit:"
+  },
+  "12120510": {
+    "model": "HH75R",
+    "file": "12120510.pdf",
+    "ticari_ad": "150W, 16Ω, Aluminum Pipe Speaker (Unit:"
+  },
+  "16140840": {
+    "model": "SEA 40",
+    "file": "16140840.pdf",
+    "ticari_ad": "16140840"
+  },
+  "16140870": {
+    "model": "SEA 62",
+    "file": "16140870.pdf",
+    "ticari_ad": "16140870"
+  },
+  "16140890": {
+    "model": "SEA 82",
+    "file": "16140890.pdf",
+    "ticari_ad": "16140890"
+  },
+  "16140910": {
+    "model": "SEA 8 SUB",
+    "file": "16140910.pdf",
+    "ticari_ad": "16140910"
+  },
+  "20190050": {
+    "model": "SU35B/16",
+    "file": "20190050.pdf",
+    "ticari_ad": "20190050"
+  },
+  "20190110": {
+    "model": "NSU35B/16",
+    "file": "20190110.pdf",
+    "ticari_ad": "20190110"
+  },
+  "20190150": {
+    "model": "NSU75B/16",
+    "file": "20190150.pdf",
+    "ticari_ad": "20190150"
+  },
+  "20190160": {
+    "model": "NSU150B/16",
+    "file": "20190160.pdf",
+    "ticari_ad": "20190160"
+  },
+  "20190280": {
+    "model": "NSU100B/16",
+    "file": "20190280.pdf",
+    "ticari_ad": "20190280"
+  },
+  "16190180": {
+    "model": "ROSSO75A",
+    "file": "16190180.pdf",
+    "ticari_ad": "16190180"
+  },
+  "20190500": {
+    "model": "HM06",
+    "file": "20190500.pdf",
+    "ticari_ad": "20190500"
+  },
+  "20190550": {
+    "model": "HM07",
+    "file": "20190550.pdf",
+    "ticari_ad": "20190550"
+  },
+  "16190300": {
+    "model": "HM12",
+    "file": "16190300.pdf",
+    "ticari_ad": "16190300"
+  },
+  "16190320": {
+    "model": "HM13",
+    "file": "16190320.pdf",
+    "ticari_ad": "16190320"
+  },
+  "16190340": {
+    "model": "HM14",
+    "file": "16190340.pdf",
+    "ticari_ad": "16190340"
+  },
+  "16190350": {
+    "model": "HM15",
+    "file": "16190350.pdf",
+    "ticari_ad": "16190350"
+  },
+  "20190450": {
+    "model": "HM21",
+    "file": "20190450.pdf",
+    "ticari_ad": "20190450"
+  },
+  "20190430": {
+    "model": "HM25",
+    "file": "20190430.pdf",
+    "ticari_ad": "20190430"
+  },
+  "20190480": {
+    "model": "HM26",
+    "file": "20190480.pdf",
+    "ticari_ad": "20190480"
+  },
+  "20190460": {
+    "model": "HM27",
+    "file": "20190460.pdf",
+    "ticari_ad": "20190460"
+  },
+  "20190470": {
+    "model": "HM28",
+    "file": "20190470.pdf",
+    "ticari_ad": "20190470"
+  },
+  "20190030": {
+    "model": "HM29",
+    "file": "20190030.pdf",
+    "ticari_ad": "20190030"
+  },
+  "16190290": {
+    "model": "DIA 120",
+    "file": "16190290.pdf",
+    "ticari_ad": "16190290"
+  },
+  "20170100": {
+    "model": "ME300B100SC",
+    "file": "20170100.pdf",
+    "ticari_ad": "20170100"
+  },
+  "20170200": {
+    "model": "ME380B150",
+    "file": "20170200.pdf",
+    "ticari_ad": "20170200"
+  },
+  "20170250": {
+    "model": "ME380B200",
+    "file": "20170250.pdf",
+    "ticari_ad": "20170250"
+  },
+  "20170300": {
+    "model": "ME380B200SC",
+    "file": "20170300.pdf",
+    "ticari_ad": "20170300"
+  },
+  "20170600": {
+    "model": "PA-165",
+    "file": "20170600.pdf",
+    "ticari_ad": "20170600"
+  },
+  "20170650": {
+    "model": "PA-200",
+    "file": "20170650.pdf",
+    "ticari_ad": "20170650"
+  },
+  "20170720": {
+    "model": "PA-250B40",
+    "file": "20170720.pdf",
+    "ticari_ad": "20170720"
+  },
+  "20170730": {
+    "model": "SR-125B40",
+    "file": "20170730.pdf",
+    "ticari_ad": "20170730"
+  },
+  "20170750": {
+    "model": "SR-125A53",
+    "file": "20170750.pdf",
+    "ticari_ad": "20170750"
+  },
+  "16600110": {
+    "model": "5WY",
+    "file": "16600110.pdf",
+    "ticari_ad": "Woofer replacement speaker, 5.25'', 80-160W, 85WY"
+  },
+  "16600120": {
+    "model": "6WY",
+    "file": "16600120.pdf",
+    "ticari_ad": "Woofer replacement speaker 6,5'', 120-240W, 86WY"
+  },
+  "16600130": {
+    "model": "8WY",
+    "file": "16600130.pdf",
+    "ticari_ad": "Woofer replacement speaker 8'', 150-300W, 88WY"
+  },
+  "16170110": {
+    "model": "MRN184",
+    "file": "16170110.pdf",
+    "ticari_ad": "16170110"
+  },
+  "16170150": {
+    "model": "MR103",
+    "file": "16170150.pdf",
+    "ticari_ad": "16170150"
+  },
+  "16170160": {
+    "model": "MR123",
+    "file": "16170160.pdf",
+    "ticari_ad": "16170160"
+  },
+  "16170170": {
+    "model": "MR153",
+    "file": "16170170.pdf",
+    "ticari_ad": "16170170"
+  },
+  "16170190": {
+    "model": "MR1525",
+    "file": "16170190.pdf",
+    "ticari_ad": "Bare speaker, 15’’, 250W, 8Ω, die-cast body, 2.53\""
+  },
+  "16190080": {
+    "model": "CT24AS",
+    "file": "16190080.pdf",
+    "ticari_ad": "16190080"
+  },
+  "16190090": {
+    "model": "CT34AS",
+    "file": "16190090.pdf",
+    "ticari_ad": "16190090"
+  },
+  "16190100": {
+    "model": "CT44ASX",
+    "file": "16190100.pdf",
+    "ticari_ad": "16190100"
+  },
+  "16050100": {
+    "model": "MC9100",
+    "file": "16050100.pdf",
+    "ticari_ad": "Conference system, economical conference center"
+  },
+  "16050120": {
+    "model": "MC9100-1",
+    "file": "16050120.pdf",
+    "ticari_ad": "16050120"
+  },
+  "16050140": {
+    "model": "MC9100-2",
+    "file": "16050140.pdf",
+    "ticari_ad": "16050140"
+  },
+  "16050010": {
+    "model": "MC9160",
+    "file": "16050010.pdf",
+    "ticari_ad": "16050010"
+  },
+  "16040900": {
+    "model": "MC9160-7",
+    "file": "16040900.pdf",
+    "ticari_ad": "MC9160/7"
+  },
+  "16040910": {
+    "model": "MC9160-8",
+    "file": "16040910.pdf",
+    "ticari_ad": "MC9160/8"
+  },
+  "16040930": {
+    "model": "MC9160-9",
+    "file": "16040930.pdf",
+    "ticari_ad": "MC9160/9"
+  },
+  "16040940": {
+    "model": "MC9160-10",
+    "file": "16040940.pdf",
+    "ticari_ad": "MC9160/10"
+  },
+  "16040980": {
+    "model": "MC9160-11",
+    "file": "16040980.pdf",
+    "ticari_ad": "MC9160/11"
+  },
+  "12030400": {
+    "model": "TR-100",
+    "file": "12030400.pdf",
+    "ticari_ad": ""
+  },
+  "16080659": {
+    "model": "MD 100",
+    "file": "16080659.pdf",
+    "ticari_ad": "16080659"
+  },
+  "12500050": {
+    "model": "SW1316PRO",
+    "file": "12500050.pdf",
+    "ticari_ad": "6x8 stereo balanced audio"
+  },
+  "16817080": {
+    "model": "DSP PA",
+    "file": "16817080.pdf",
+    "ticari_ad": "16817080"
+  },
+  "16817090": {
+    "model": "PLD 26",
+    "file": "16817090.pdf",
+    "ticari_ad": ""
+  },
+  "16817095": {
+    "model": "PLD 48",
+    "file": "16817095.pdf",
+    "ticari_ad": ""
+  },
+  "16082614": {
+    "model": "VCL-2HB",
+    "file": "16082614.pdf",
+    "ticari_ad": "16082614"
+  },
+  "16081080": {
+    "model": "MIX-4RC",
+    "file": "16081080.pdf",
+    "ticari_ad": "Wireless microphone, 740 Hz-789.75 MHz, 200"
+  },
+  "16081120": {
+    "model": "MIX-4B",
+    "file": "16081120.pdf",
+    "ticari_ad": "Wireless microphone, 740 Hz-789.75 MHz, LCD"
+  },
+  "16081160": {
+    "model": "MIX-4H",
+    "file": "16081160.pdf",
+    "ticari_ad": "Wireless microphone, 740 Hz-789.75M Hz, LCD"
+  },
+  "16081200": {
+    "model": "MIX-4G",
+    "file": "16081200.pdf",
+    "ticari_ad": "Wireless microphone, 740 Hz-789.75 MHz, LED"
+  },
+  "41285230": {
+    "model": "DSP SOLO UHF-M850",
+    "file": "41285230.pdf",
+    "ticari_ad": "DSP SOLO UHFDynamic Uni-directional UHF single handheld"
+  },
+  "41285231": {
+    "model": "DSP DUO UHF-M850",
+    "file": "41285231.pdf",
+    "ticari_ad": "DSP DUO UHFDynamic Uni-directional UHF dual handheld"
+  },
+  "41285234": {
+    "model": "DSP HEADSET SOLO",
+    "file": "41285234.pdf",
+    "ticari_ad": "PACK UHF DSP"
+  },
+  "41285235": {
+    "model": "DSP HEADSET DUO",
+    "file": "41285235.pdf",
+    "ticari_ad": "PACK UHF DSP"
+  },
+  "27080080": {
+    "model": "EM 120",
+    "file": "27080080.pdf",
+    "ticari_ad": "Uni Directional, 600 Ohm, high sensitivity lavalier"
+  },
+  "27081000": {
+    "model": "CB-100",
+    "file": "27081000.pdf",
+    "ticari_ad": "Omni Directional, dynamic, 500 Ohm, ABS CB"
+  },
+  "27081300": {
+    "model": "CB-130",
+    "file": "27081300.pdf",
+    "ticari_ad": "Omni Directional, dynamic, 500 Ohm, ABS, noise"
+  },
+  "27080130": {
+    "model": "YGM-130",
+    "file": "27080130.pdf",
+    "ticari_ad": "Uni Directional, condenser, low cut filter, 10dB"
+  },
+  "16080200": {
+    "model": "DM-630",
+    "file": "16080200.pdf",
+    "ticari_ad": "16080200"
+  },
+  "16080091": {
+    "model": "SA 50N",
+    "file": "16080091.pdf",
+    "ticari_ad": "16080091"
+  },
+  "16080030": {
+    "model": "EM915",
+    "file": "16080030.pdf",
+    "ticari_ad": "16080030"
+  },
+  "16080081": {
+    "model": "PH 60",
+    "file": "16080081.pdf",
+    "ticari_ad": "16080081"
+  },
+  "16080095": {
+    "model": "DZ 35",
+    "file": "16080095.pdf",
+    "ticari_ad": "PROFESYONEL TOPLANTI MİKROFONU"
+  },
+  "27080200": {
+    "model": "GM-20P",
+    "file": "27080200.pdf",
+    "ticari_ad": "Desktop box office intercom microphone with PTT,"
+  },
+  "16080120": {
+    "model": "CAM 4",
+    "file": "16080120.pdf",
+    "ticari_ad": "16080120"
+  },
+  "16080230": {
+    "model": "DYN-35SW",
+    "file": "16080230.pdf",
+    "ticari_ad": "Dynamic microphone, 600-Ohm, desktop"
+  },
+  "41183200": {
+    "model": "TT1",
+    "file": "41183200.pdf",
+    "ticari_ad": "41183200"
+  },
+  "41183210": {
+    "model": "TT1 PRO",
+    "file": "41183210.pdf",
+    "ticari_ad": "41183210"
+  },
+  "16780005": {
+    "model": "DMX 384",
+    "file": "16780005.pdf",
+    "ticari_ad": "16780005"
+  },
+  "73810010": {
+    "model": "FOG JUICE 1",
+    "file": "73810010.pdf",
+    "ticari_ad": "73810010"
+  },
+  "73810020": {
+    "model": "FOG JUICE 2",
+    "file": "73810020.pdf",
+    "ticari_ad": "73810020"
+  },
+  "73810030": {
+    "model": "FOG JUICE 3",
+    "file": "73810030.pdf",
+    "ticari_ad": "73810030"
+  },
+  "17000010": {
+    "model": "MICROFLEX24",
+    "file": "17000010.pdf",
+    "ticari_ad": "Balanced microphone cable, 100 m, 6.5 mm black"
+  },
+  "17000040": {
+    "model": "MULTIMIC 8",
+    "file": "17000040.pdf",
+    "ticari_ad": "17000040"
+  },
+  "17000050": {
+    "model": "MULTIMIC 12",
+    "file": "17000050.pdf",
+    "ticari_ad": "17000050"
+  },
+  "17000070": {
+    "model": "SP-275",
+    "file": "17000070.pdf",
+    "ticari_ad": "17000070"
+  },
+  "17000080": {
+    "model": "SP-215",
+    "file": "17000080.pdf",
+    "ticari_ad": "17000080"
+  },
+  "17000090": {
+    "model": "GTR-24",
+    "file": "17000090.pdf",
+    "ticari_ad": "Guitar cable, 100 m, 20/0.12"
+  },
+  "17000160": {
+    "model": "SP2500",
+    "file": "17000160.pdf",
+    "ticari_ad": "17000160"
+  },
+  "17000200": {
+    "model": "SOUNDFLEX 4250",
+    "file": "17000200.pdf",
+    "ticari_ad": "17000200"
+  },
+  "17010085": {
+    "model": "XMP",
+    "file": "17010085.pdf",
+    "ticari_ad": "17010085"
+  },
+  "17010090": {
+    "model": "XFB",
+    "file": "17010090.pdf",
+    "ticari_ad": "17010090"
+  },
+  "17010091": {
+    "model": "DMX5M",
+    "file": "17010091.pdf",
+    "ticari_ad": "17010091"
+  },
+  "17010092": {
+    "model": "DMX5F",
+    "file": "17010092.pdf",
+    "ticari_ad": "17010092"
+  },
+  "17010093": {
+    "model": "DMC5M",
+    "file": "17010093.pdf",
+    "ticari_ad": "17010093"
+  },
+  "17010094": {
+    "model": "DMC5F",
+    "file": "17010094.pdf",
+    "ticari_ad": "17010094"
+  },
+  "17010095": {
+    "model": "XFP",
+    "file": "17010095.pdf",
+    "ticari_ad": "17010095"
+  },
+  "17010096": {
+    "model": "COMBO",
+    "file": "17010096.pdf",
+    "ticari_ad": "17010096"
+  },
+  "17010100": {
+    "model": "XFN",
+    "file": "17010100.pdf",
+    "ticari_ad": "17010100"
+  },
+  "17010110": {
+    "model": "XMN",
+    "file": "17010110.pdf",
+    "ticari_ad": "17010110"
+  },
+  "17010120": {
+    "model": "XMB",
+    "file": "17010120.pdf",
+    "ticari_ad": "17010120"
+  },
+  "17010130": {
+    "model": "XMN 20",
+    "file": "17010130.pdf",
+    "ticari_ad": "17010130"
+  },
+  "17010140": {
+    "model": "XMNL",
+    "file": "17010140.pdf",
+    "ticari_ad": "17010140"
+  },
+  "17010150": {
+    "model": "XFNL",
+    "file": "17010150.pdf",
+    "ticari_ad": "17010150"
+  },
+  "17010160": {
+    "model": "XMNC",
+    "file": "17010160.pdf",
+    "ticari_ad": "17010160"
+  },
+  "17010177": {
+    "model": "T862",
+    "file": "17010177.pdf",
+    "ticari_ad": "17010177"
+  },
+  "17010190": {
+    "model": "XMBC",
+    "file": "17010190.pdf",
+    "ticari_ad": "17010190"
+  },
+  "17010195": {
+    "model": "XMBW",
+    "file": "17010195.pdf",
+    "ticari_ad": "17010195"
+  },
+  "17010196": {
+    "model": "XMFW",
+    "file": "17010196.pdf",
+    "ticari_ad": "17010196"
+  },
+  "17010210": {
+    "model": "XFBC",
+    "file": "17010210.pdf",
+    "ticari_ad": "17010210"
+  },
+  "17010240": {
+    "model": "P6M/XM",
+    "file": "17010240.pdf",
+    "ticari_ad": "17010240"
+  },
+  "17010250": {
+    "model": "P6F/XF",
+    "file": "17010250.pdf",
+    "ticari_ad": "17010250"
+  },
+  "17010260": {
+    "model": "P6M/XF",
+    "file": "17010260.pdf",
+    "ticari_ad": "17010260"
+  },
+  "17010270": {
+    "model": "P6ST/XM",
+    "file": "17010270.pdf",
+    "ticari_ad": "17010270"
+  },
+  "17010280": {
+    "model": "SP4A",
+    "file": "17010280.pdf",
+    "ticari_ad": "17010280"
+  },
+  "17010310": {
+    "model": "T307",
+    "file": "17010310.pdf",
+    "ticari_ad": "17010310"
+  },
+  "17010323": {
+    "model": "SP4K",
+    "file": "17010323.pdf",
+    "ticari_ad": "17010323"
+  },
+  "17010328": {
+    "model": "SP4M",
+    "file": "17010328.pdf",
+    "ticari_ad": "17010328"
+  },
+  "17010380": {
+    "model": "SC4",
+    "file": "17010380.pdf",
+    "ticari_ad": "17010380"
+  },
+  "17010400": {
+    "model": "SCR4",
+    "file": "17010400.pdf",
+    "ticari_ad": "17010400"
+  },
+  "17010405": {
+    "model": "SCR4M",
+    "file": "17010405.pdf",
+    "ticari_ad": "17010405"
+  },
+  "17010450": {
+    "model": "ACIN",
+    "file": "17010450.pdf",
+    "ticari_ad": "17010450"
+  },
+  "17010452": {
+    "model": "ACINM",
+    "file": "17010452.pdf",
+    "ticari_ad": "17010452"
+  },
+  "17010470": {
+    "model": "ACINC",
+    "file": "17010470.pdf",
+    "ticari_ad": "17010470"
+  },
+  "17010472": {
+    "model": "ACINCM",
+    "file": "17010472.pdf",
+    "ticari_ad": "17010472"
+  },
+  "17010473": {
+    "model": "ACINWM",
+    "file": "17010473.pdf",
+    "ticari_ad": "17010473"
+  },
+  "17010474": {
+    "model": "ACINWF",
+    "file": "17010474.pdf",
+    "ticari_ad": "17010474"
+  },
+  "17010475": {
+    "model": "ACINWSF",
+    "file": "17010475.pdf",
+    "ticari_ad": "17010475"
+  },
+  "17010477": {
+    "model": "ACINWSM",
+    "file": "17010477.pdf",
+    "ticari_ad": "17010477"
+  },
+  "17010520": {
+    "model": "ACOUTC",
+    "file": "17010520.pdf",
+    "ticari_ad": "Powercon female plug, chassis type, fireproof gray"
+  },
+  "17010540": {
+    "model": "SOCAPEX",
+    "file": "17010540.pdf",
+    "ticari_ad": "17010540"
+  },
+  "17010541": {
+    "model": "SOCAPEX",
+    "file": "17010541.pdf",
+    "ticari_ad": "17010541"
+  },
+  "17010542": {
+    "model": "SOCAPEX",
+    "file": "17010542.pdf",
+    "ticari_ad": "17010542"
+  },
+  "17010543": {
+    "model": "SOCAPEX",
+    "file": "17010543.pdf",
+    "ticari_ad": "17010543"
+  },
+  "17010550": {
+    "model": "P6M",
+    "file": "17010550.pdf",
+    "ticari_ad": "17010550"
+  },
+  "17010555": {
+    "model": "P6MB",
+    "file": "17010555.pdf",
+    "ticari_ad": "17010555"
+  },
+  "17010575": {
+    "model": "P6STB",
+    "file": "17010575.pdf",
+    "ticari_ad": "17010575"
+  },
+  "17010580": {
+    "model": "P6ST/P6ST",
+    "file": "17010580.pdf",
+    "ticari_ad": "17010580"
+  },
+  "17010590": {
+    "model": "INS6M",
+    "file": "17010590.pdf",
+    "ticari_ad": "17010590"
+  },
+  "17010610": {
+    "model": "P6NC",
+    "file": "17010610.pdf",
+    "ticari_ad": "17010610"
+  },
+  "17010630": {
+    "model": "P6FST",
+    "file": "17010630.pdf",
+    "ticari_ad": "17010630"
+  },
+  "17010640": {
+    "model": "P6M90",
+    "file": "17010640.pdf",
+    "ticari_ad": "17010640"
+  },
+  "17010660": {
+    "model": "P6ADA",
+    "file": "17010660.pdf",
+    "ticari_ad": "17010660"
+  },
+  "17010680": {
+    "model": "P6M2",
+    "file": "17010680.pdf",
+    "ticari_ad": "17010680"
+  },
+  "17010690": {
+    "model": "P6ST/3.5ST",
+    "file": "17010690.pdf",
+    "ticari_ad": "3.5 mm screw stereo jack to 6.3 mm stereo jack"
+  },
+  "17010700": {
+    "model": "RCAB",
+    "file": "17010700.pdf",
+    "ticari_ad": "17010700"
+  },
+  "17010705": {
+    "model": "RCAB-G",
+    "file": "17010705.pdf",
+    "ticari_ad": "17010705"
+  },
+  "17010706": {
+    "model": "RCABC",
+    "file": "17010706.pdf",
+    "ticari_ad": "17010706"
+  },
+  "17010707": {
+    "model": "RCA",
+    "file": "17010707.pdf",
+    "ticari_ad": "17010707"
+  },
+  "17010710": {
+    "model": "RCA/XM",
+    "file": "17010710.pdf",
+    "ticari_ad": "17010710"
+  },
+  "17010720": {
+    "model": "RCAB 20",
+    "file": "17010720.pdf",
+    "ticari_ad": "17010720"
+  },
+  "17010740": {
+    "model": "MX3B",
+    "file": "17010740.pdf",
+    "ticari_ad": "17010740"
+  },
+  "17010750": {
+    "model": "MX4B",
+    "file": "17010750.pdf",
+    "ticari_ad": "17010750"
+  },
+  "17010800": {
+    "model": "3.5STT",
+    "file": "17010800.pdf",
+    "ticari_ad": "17010800"
+  },
+  "17010820": {
+    "model": "3.5STV",
+    "file": "17010820.pdf",
+    "ticari_ad": "17010820"
+  },
+  "17011005": {
+    "model": "T320",
+    "file": "17011005.pdf",
+    "ticari_ad": "17011005"
+  },
+  "17011006": {
+    "model": "T321",
+    "file": "17011006.pdf",
+    "ticari_ad": "17011006"
+  },
+  "17011025": {
+    "model": "T607",
+    "file": "17011025.pdf",
+    "ticari_ad": "17011025"
+  },
+  "17011035": {
+    "model": "T793",
+    "file": "17011035.pdf",
+    "ticari_ad": "Waterproof new generation female powercon,"
+  },
+  "17071991": {
+    "model": "CAT6 RJ45",
+    "file": "17071991.pdf",
+    "ticari_ad": "17071991"
+  },
+  "17071993": {
+    "model": "6PLT",
+    "file": "17071993.pdf",
+    "ticari_ad": "17071993"
+  },
+  "17071994": {
+    "model": "CT6C",
+    "file": "17071994.pdf",
+    "ticari_ad": "17071994"
+  },
+  "17072450": {
+    "model": "PC-JM3-JM6/2",
+    "file": "17072450.pdf",
+    "ticari_ad": "17072450"
+  },
+  "17072520": {
+    "model": "PC-2XM-2RM/1,5",
+    "file": "17072520.pdf",
+    "ticari_ad": "17072520"
+  },
+  "17072530": {
+    "model": "PC-2XM-2RM/3",
+    "file": "17072530.pdf",
+    "ticari_ad": "17072530"
+  },
+  "17072540": {
+    "model": "PC-2RCA",
+    "file": "17072540.pdf",
+    "ticari_ad": "17072540"
+  },
+  "17072560": {
+    "model": "PC-2XM-2JM6/1,5",
+    "file": "17072560.pdf",
+    "ticari_ad": "17072560"
+  },
+  "17072580": {
+    "model": "PC-2XM-2JM6/3",
+    "file": "17072580.pdf",
+    "ticari_ad": "17072580"
+  },
+  "17072590": {
+    "model": "PC-6.3M XM/10",
+    "file": "17072590.pdf",
+    "ticari_ad": "Converter connecting cable from 6.3 mm mono to"
+  },
+  "17072600": {
+    "model": "PC-2XF-2R/1,5",
+    "file": "17072600.pdf",
+    "ticari_ad": "17072600"
+  },
+  "17072620": {
+    "model": "PC-2XF-2R/3",
+    "file": "17072620.pdf",
+    "ticari_ad": "17072620"
+  },
+  "17072665": {
+    "model": "J3-2RCA/1.5M",
+    "file": "17072665.pdf",
+    "ticari_ad": "17072665"
+  },
+  "17072670": {
+    "model": "J3-2RCA/3M",
+    "file": "17072670.pdf",
+    "ticari_ad": "17072670"
+  },
+  "17072820": {
+    "model": "PC-SP-1.5/5",
+    "file": "17072820.pdf",
+    "ticari_ad": "17072820"
+  },
+  "17072840": {
+    "model": "PC-SP-1.5/10",
+    "file": "17072840.pdf",
+    "ticari_ad": "17072840"
+  },
+  "17072880": {
+    "model": "PC-SP-1.5/20",
+    "file": "17072880.pdf",
+    "ticari_ad": "17072880"
+  },
+  "17072980": {
+    "model": "PC-SP-2.5/30",
+    "file": "17072980.pdf",
+    "ticari_ad": "17072980"
+  },
+  "17073100": {
+    "model": "AV-XP",
+    "file": "17073100.pdf",
+    "ticari_ad": "Female male XLR, signal and power ACIN+220V"
+  },
+  "17073105": {
+    "model": "ACIN - 220V",
+    "file": "17073105.pdf",
+    "ticari_ad": "Power extension cable for active speaker,"
+  },
+  "17073130": {
+    "model": "SNAKE 8",
+    "file": "17073130.pdf",
+    "ticari_ad": "17073130"
+  },
+  "17073140": {
+    "model": "FY-7024",
+    "file": "17073140.pdf",
+    "ticari_ad": "17073140"
+  },
+  "16320830": {
+    "model": "MINI ACRO",
+    "file": "16320830.pdf",
+    "ticari_ad": "Acrobat microphone stand, 38-52 cm, chrome"
+  },
+  "32010080": {
+    "model": "ACRO E1",
+    "file": "32010080.pdf",
+    "ticari_ad": "ACRO-E1"
+  },
+  "32010020": {
+    "model": "SPF UH1",
+    "file": "32010020.pdf",
+    "ticari_ad": "32010020"
+  },
+  "32010030": {
+    "model": "SPF E1",
+    "file": "32010030.pdf",
+    "ticari_ad": "32010030"
+  },
+  "32010140": {
+    "model": "SPW 24",
+    "file": "32010140.pdf",
+    "ticari_ad": "32010140"
+  },
+  "32010150": {
+    "model": "SPW 38",
+    "file": "32010150.pdf",
+    "ticari_ad": "32010150"
+  },
+  "32010180": {
+    "model": "KEY E1",
+    "file": "32010180.pdf",
+    "ticari_ad": "KEY-E1"
+  },
+  "12020208": {
+    "model": "DR3051",
+    "file": "12020208.pdf",
+    "ticari_ad": "DR3051",
+    "kaynak": "MİKAFON/DR3050 & DR3051 & DR6050 & DR6051 CE.pdf"
+  },
+  "39040761": {
+    "model": "PAS6-B",
+    "file": "39040761.pdf",
+    "ticari_ad": "PAS 6",
+    "kaynak": "STUDIOMASTER/PAS 6 CE.pdf"
+  },
+  "17010670": {
+    "model": "P6ST/3.5STP",
+    "file": "17010670.pdf",
+    "ticari_ad": "P6ST",
+    "kaynak": "PURECON/P6ST CE.pdf"
+  },
+  "17071990": {
+    "model": "CAT6 RJ45",
+    "file": "17071990.pdf",
+    "ticari_ad": "CAT6",
+    "kaynak": "PURECON/CAT6 CE.pdf"
+  },
+  "15950385": {
+    "model": "ESCO/DOC 16S",
+    "file": "15950385.pdf",
+    "ticari_ad": "",
+    "kaynak": "ENORMPA/DOC-S CE.pdf"
+  },
+  "15950450": {
+    "model": "ESCO/D4250IP PA.2x260W",
+    "file": "15950450.pdf",
+    "ticari_ad": "",
+    "kaynak": "ENORMPA/D4250-IP-2x250W CE.pdf"
+  },
+  "15950451": {
+    "model": "ESCO/D4250IP PA.4x250W",
+    "file": "15950451.pdf",
+    "ticari_ad": "",
+    "kaynak": "ENORMPA/D4250-IP-4 X250W CE.pdf"
+  },
+  "17010500": {
+    "model": "ACOUNT",
+    "file": "17010500.pdf",
+    "ticari_ad": "",
+    "kaynak": "PURECON/ACOUT CE.pdf"
+  },
+  "17072000": {
+    "model": "PC-XLR M/ XLR F",
+    "file": "17072000.pdf",
+    "ticari_ad": "",
+    "kaynak": "PURECON/PC-MIC- XMXF_1 CE.pdf"
+  },
+  "17072020": {
+    "model": "PC-XLR M/ XLR F",
+    "file": "17072020.pdf",
+    "ticari_ad": "",
+    "kaynak": "PURECON/PC-MIC- XMXF_3 CE.pdf"
+  },
+  "17072030": {
+    "model": "M/ XLR F",
+    "file": "17072030.pdf",
+    "ticari_ad": "",
+    "kaynak": "PURECON/PC-MIC- XMXF_5 CE.pdf"
+  },
+  "17072040": {
+    "model": "PC-XLR M/ XLR F",
+    "file": "17072040.pdf",
+    "ticari_ad": "",
+    "kaynak": "PURECON/PC-MIC- XMXF_10 CE.pdf"
+  },
+  "17072060": {
+    "model": "PC-XLR M/ XLR F",
+    "file": "17072060.pdf",
+    "ticari_ad": "",
+    "kaynak": "PURECON/PC-MIC- XMXF_15 CE.pdf"
+  },
+  "17072440": {
+    "model": "PC-2XF-2J6M/3",
+    "file": "17072440.pdf",
+    "ticari_ad": "",
+    "kaynak": "PURECON/PC-2XF- 2JM6_3 CE.pdf"
+  },
+  "17072550": {
+    "model": "PC-2xRCA",
+    "file": "17072550.pdf",
+    "ticari_ad": "",
+    "kaynak": "PURECON/PC-2RCA_3 CE.pdf"
+  },
+  "47310100": {
+    "model": "STAGE22 HF B",
+    "file": "47310100.pdf",
+    "ticari_ad": "",
+    "kaynak": "SOMMER CABLE/STAGE 22 HF CE.pdf"
+  },
+  "12030174": {
+    "model": "MX16",
+    "file": "12030174.pdf",
+    "ticari_ad": "16 Channel, 1U, Analog Mixer"
+  },
+  "16050190": {
+    "model": "M-1010",
+    "file": "16050190.pdf",
+    "ticari_ad": "8 Girişli UHF aktif 2 adet antenli menzil arttırıcı set"
+  },
+  "16082596": {
+    "model": "VCL-701",
+    "file": "16082596.pdf",
+    "ticari_ad": "VCL-701"
+  },
+  "41183250": {
+    "model": "DUO A1",
+    "file": "41183250.pdf",
+    "ticari_ad": "İkili Kondenser Mk."
+  },
+  "41183260": {
+    "model": "M-85",
+    "file": "41183260.pdf",
+    "ticari_ad": "Vokal Mikrofon"
+  },
+  "12030545": {
+    "model": "ZM10",
+    "file": "12030545.pdf",
+    "ticari_ad": "Anons Konsolu"
+  },
+  "12030547": {
+    "model": "PA20",
+    "file": "12030547.pdf",
+    "ticari_ad": "PA20"
+  },
+  "12030548": {
+    "model": "PA30",
+    "file": "12030548.pdf",
+    "ticari_ad": "Anons Konsolu"
+  },
+  "12030549": {
+    "model": "PA40",
+    "file": "12030549.pdf",
+    "ticari_ad": "PA40"
+  },
+  "12020200": {
+    "model": "DR6051",
+    "file": "12020200.pdf",
+    "ticari_ad": "Class-D Reverb Mixer Amplifier, 2x270W"
+  },
+  "12020202": {
+    "model": "DR6050",
+    "file": "12020202.pdf",
+    "ticari_ad": "Class-D Reverb Mixer Amplifier, 2x270W"
+  }
+}
