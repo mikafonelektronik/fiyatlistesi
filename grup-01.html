@@ -1803,6 +1803,7 @@ PA.4x250W datasheet'ini aç"><svg class="" viewBox="0 0 24 24" fill="currentColo
         });
         y += 18;
       });
+      if (rows.some(function(r){ return parseNum(r.p) === null; })) { ensure(30); setF('400', 15, '#5b6a80'); txt('Fiyat sorunuz olan ürünler toplama dahil değildir.', M, y + 10); y += 30; }
       finishPage();
 
       return PL.PDFDocument.create().then(function(doc){
