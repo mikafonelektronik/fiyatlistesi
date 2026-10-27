@@ -1647,7 +1647,7 @@ input[type=search]::-webkit-input-placeholder{opacity:1}
         setF('400', 14, '#5b6a80');
         wrapText(spec, nameMax, 2).forEach(function(ln, i){ txt(ln, TX, y + 84 + i * 18); });
         setF('400', 22, '#0a1a2f'); txt(String(row.q), COL_Q, cy + 8, 'right');
-        txt(num === null ? (row.n || 'Fiyat yok') : fmt(num) + ' ' + row.u, COL_U, cy + 8, 'right');
+        if (num === null) setF('400', 15, '#5b6a80'); txt(num === null ? (row.n || 'Fiyat yok') : fmt(num) + ' ' + row.u, COL_U, cy + 8, 'right');
         setF('700', 22, '#0a1a2f'); txt(num === null ? '—' : fmt(num * row.q) + ' ' + row.u, COL_T, cy + 8, 'right');
         y += ROW_H; rule(y - 10);
       });
