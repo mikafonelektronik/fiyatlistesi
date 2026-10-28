@@ -557,7 +557,10 @@ input[type=search]::-webkit-input-placeholder{opacity:1}
     <button type="button" data-q-chip="konnektör">Konnektör</button>
     <button type="button" data-q-chip="acil anons">Acil anons</button>
   </div>
-  <details class="upd-h"><summary>Fiyat listesi son güncelleme: <b>23 Ekim 2026</b> <span class="upd-car" aria-hidden="true">▾</span></summary><div class="upd-p"><div class="upd-t">Son 3 ay fiyat değişimleri</div><div class="upd-g"><div class="upd-gd">23 Ekim 2026 · 23 ürün</div><table class="upd-tb"><thead><tr><th>Ürün</th><th class="n">Yeni fiyat</th></tr></thead><tbody><tr><td>PRO 2000</td><td class="n">653 USD</td></tr><tr><td>SUB-SAT</td><td class="n">499 USD</td></tr><tr><td>PA-2</td><td class="n">23 USD</td></tr><tr><td>KONZERT XBASS 4B &amp; W</td><td class="n">155 USD</td></tr><tr><td>KONZERT XBASS 6B &amp; W</td><td class="n">265 USD</td></tr><tr><td>KONZERT XBASS 8B &amp; W</td><td class="n">350 USD</td></tr><tr><td>KONZERT SIGMA 6W</td><td class="n">335 USD</td></tr><tr><td>OUT 6T</td><td class="n">250 USD</td></tr><tr><td>EM 120</td><td class="n">36 USD</td></tr><tr><td>GM-20P</td><td class="n">160 USD</td></tr><tr><td>FXDX-7</td><td class="n">345 USD</td></tr><tr><td>BEM 10R</td><td class="n">1,590 USD</td></tr><tr><td>PAR 180E</td><td class="n">186 USD</td></tr><tr><td>RTB 120</td><td class="n">718 USD</td></tr><tr><td>RT 60</td><td class="n">239 USD</td></tr><tr><td>RT 750R</td><td class="n">625 USD</td></tr><tr><td>RT 640R</td><td class="n">1,390 USD</td></tr><tr><td>FOG JUICE 1</td><td class="n">23 EURO</td></tr><tr><td>FOG JUICE 2</td><td class="n">27 EURO</td></tr><tr><td>FOG JUICE 3</td><td class="n">31 EURO</td></tr><tr><td>BUBBLE JUICE</td><td class="n">27 EURO</td></tr><tr><td>ACRO E1</td><td class="n">28 USD</td></tr><tr><td>SPF UH1</td><td class="n">48 USD</td></tr></tbody></table></div></div></details>
+  <div class="upd-row" style="display:flex;align-items:center;flex-wrap:wrap;gap:12px">
+  <details class="upd-h" style="margin:0"><summary>Fiyat listesi son güncelleme: <b>23 Ekim 2026</b> <span class="upd-car" aria-hidden="true">▾</span></summary><div class="upd-p"><div class="upd-t">Son 3 ay fiyat değişimleri</div><div class="upd-g"><div class="upd-gd">23 Ekim 2026 · 23 ürün</div><table class="upd-tb"><thead><tr><th>Ürün</th><th class="n">Yeni fiyat</th></tr></thead><tbody><tr><td>PRO 2000</td><td class="n">653 USD</td></tr><tr><td>SUB-SAT</td><td class="n">499 USD</td></tr><tr><td>PA-2</td><td class="n">23 USD</td></tr><tr><td>KONZERT XBASS 4B &amp; W</td><td class="n">155 USD</td></tr><tr><td>KONZERT XBASS 6B &amp; W</td><td class="n">265 USD</td></tr><tr><td>KONZERT XBASS 8B &amp; W</td><td class="n">350 USD</td></tr><tr><td>KONZERT SIGMA 6W</td><td class="n">335 USD</td></tr><tr><td>OUT 6T</td><td class="n">250 USD</td></tr><tr><td>EM 120</td><td class="n">36 USD</td></tr><tr><td>GM-20P</td><td class="n">160 USD</td></tr><tr><td>FXDX-7</td><td class="n">345 USD</td></tr><tr><td>BEM 10R</td><td class="n">1,590 USD</td></tr><tr><td>PAR 180E</td><td class="n">186 USD</td></tr><tr><td>RTB 120</td><td class="n">718 USD</td></tr><tr><td>RT 60</td><td class="n">239 USD</td></tr><tr><td>RT 750R</td><td class="n">625 USD</td></tr><tr><td>RT 640R</td><td class="n">1,390 USD</td></tr><tr><td>FOG JUICE 1</td><td class="n">23 EURO</td></tr><tr><td>FOG JUICE 2</td><td class="n">27 EURO</td></tr><tr><td>FOG JUICE 3</td><td class="n">31 EURO</td></tr><tr><td>BUBBLE JUICE</td><td class="n">27 EURO</td></tr><tr><td>ACRO E1</td><td class="n">28 USD</td></tr><tr><td>SPF UH1</td><td class="n">48 USD</td></tr></tbody></table></div></div></details>
+    <button type="button" id="brandsBtn" style="background:#19b4e8;color:#0a1a2f;border:none;border-radius:999px;height:34px;padding:0 20px;font:700 14px Poppins,sans-serif;cursor:pointer;display:inline-flex;align-items:center;gap:8px;line-height:1">Markalar <span aria-hidden="true">→</span></button>
+  </div>
     <div class="hero-dl" data-dlbox>
       <p class="dl-msg" hidden></p>
     </div>
@@ -924,6 +927,23 @@ input[type=search]::-webkit-input-placeholder{opacity:1}
     if (hs && qp) { hs.value = qp; homeSearch(); setTimeout(scrollToResults, 400); }
     $$('[data-q-chip]').forEach(function(b){
       b.addEventListener('click', function(){ hs.value = b.getAttribute('data-q-chip'); homeSearch(); setTimeout(scrollToResults, 150); });
+    });
+    /* Markalar: tüm markaları listele, bir markaya basınca o markanın ürünleri gelsin */
+    var brandBtn = document.getElementById('brandsBtn');
+    if (brandBtn) brandBtn.addEventListener('click', function(){
+      var cnt = {};
+      D.groups.forEach(function(g){ g.items.forEach(function(it){ var nm = (it.b || '').trim(); if (nm) cnt[nm] = (cnt[nm] || 0) + 1; }); });
+      var names = Object.keys(cnt).sort(function(x, y){ return x.localeCompare(y, 'tr'); });
+      hs.value = '';
+      res.hidden = false;
+      rcount.textContent = names.length + ' marka';
+      rlist.innerHTML = '<div style="grid-column:1/-1;display:flex;flex-wrap:wrap;gap:10px">' + names.map(function(nm){
+        return '<button type="button" class="brand-pick" data-brand="' + esc(nm) + '" style="background:#fff;border:1px solid #cfd8e3;border-radius:999px;padding:9px 16px;font:600 14px Poppins,sans-serif;color:#0a1a2f;cursor:pointer">' + esc(nm) + ' <span style="color:#5b6a80;font-weight:500">' + cnt[nm] + '</span></button>';
+      }).join('') + '</div>';
+      rlist.querySelectorAll('[data-brand]').forEach(function(x){
+        x.addEventListener('click', function(){ hs.value = x.getAttribute('data-brand'); homeSearch(); setTimeout(scrollToResults, 150); });
+      });
+      setTimeout(scrollToResults, 150);
     });
   }
 
