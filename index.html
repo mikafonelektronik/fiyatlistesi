@@ -1304,7 +1304,8 @@ input[type=search]::-webkit-input-placeholder{opacity:1}
           ctx.drawImage(row._im, M + THUMB / 2 - dw / 2, cy - dh / 2, dw, dh);
         }
         var nameMax = COL_Q - 40 - TX;
-        setF('700', 24, '#1d5fae'); txt(fit((row.b ? row.b + ' - ' : '') + String(row.m), nameMax), TX, y + 36);
+        setF('700', 24, '#1d5fae'); var bw = row.b ? ctx.measureText(row.b).width : 0; txt(fit(row.b || '', nameMax), TX, y + 36);
+        setF('700', 24, '#0a1a2f'); txt(fit((row.b ? ' - ' : '') + String(row.m), Math.max(10, nameMax - bw)), TX + bw, y + 36);
         setF('700', 17, '#0a1a2f'); txt(fit(row.c || '', nameMax), TX, y + 60);
         setF('400', 14, '#5b6a80');
         wrapText(spec, nameMax, 2).forEach(function(ln, i){ txt(ln, TX, y + 84 + i * 18); });
