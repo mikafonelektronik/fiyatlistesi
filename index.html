@@ -1305,11 +1305,15 @@ input[type=search]::-webkit-input-placeholder{opacity:1}
           ctx.drawImage(row._im, M + THUMB / 2 - dw / 2, cy - dh / 2, dw, dh);
         }
         var nameMax = COL_Q - 40 - TX;
-        setF('700', 24, '#1d5fae'); var bw = row.b ? ctx.measureText(row.b).width : 0; txt(fit(row.b || '', nameMax), TX, y + 36);
-        setF('700', 24, '#0a1a2f'); txt(fit((row.b ? ' - ' : '') + String(row.m), Math.max(10, nameMax - bw)), TX + bw, y + 36);
-        setF('700', 17, '#0a1a2f'); txt(fit(row.c || '', nameMax), TX, y + 60);
+        /* yazı bloğu (ad, kategori, özellikler) ürün çerçevesinin dikey ortasına hizalanır */
+        setF('400', 14, '#5b6a80'); var specLines = wrapText(spec, nameMax, 2);
+        var lastBase = specLines.length ? y + 84 + 18 * (specLines.length - 1) : y + 60;
+        var dy = (y + 8 + THUMB / 2) - ((y + 18 + lastBase + 5) / 2);
+        setF('700', 24, '#1d5fae'); var bw = row.b ? ctx.measureText(row.b).width : 0; txt(fit(row.b || '', nameMax), TX, y + 36 + dy);
+        setF('700', 24, '#0a1a2f'); txt(fit((row.b ? ' - ' : '') + String(row.m), Math.max(10, nameMax - bw)), TX + bw, y + 36 + dy);
+        setF('700', 17, '#0a1a2f'); txt(fit(row.c || '', nameMax), TX, y + 60 + dy);
         setF('400', 14, '#5b6a80');
-        wrapText(spec, nameMax, 2).forEach(function(ln, i){ txt(ln, TX, y + 84 + i * 18); });
+        specLines.forEach(function(ln, i){ txt(ln, TX, y + 84 + i * 18 + dy); });
         setF('400', 22, '#0a1a2f'); txt(String(row.q), COL_Q, cy + 8, 'center');
         setF('700', 16, '#5b6a80'); var UCX = COL_U - ctx.measureText('BİRİM').width / 2; if (num === null) { var nlab = row.n || 'Fiyat sorunuz'; setF('700', 22, '#9a5a00'); var pw = ctx.measureText(nlab).width + 28, ph = 40, px = UCX - pw / 2, ppy = cy - 20, rr = 20; ctx.fillStyle = '#fff4e0'; ctx.beginPath(); ctx.moveTo(px + rr, ppy); ctx.lineTo(px + pw - rr, ppy); ctx.arc(px + pw - rr, ppy + rr, rr, -Math.PI / 2, 0); ctx.lineTo(px + pw, ppy + ph - rr); ctx.arc(px + pw - rr, ppy + ph - rr, rr, 0, Math.PI / 2); ctx.lineTo(px + rr, ppy + ph); ctx.arc(px + rr, ppy + ph - rr, rr, Math.PI / 2, Math.PI); ctx.lineTo(px, ppy + rr); ctx.arc(px + rr, ppy + rr, rr, Math.PI, 1.5 * Math.PI); ctx.closePath(); ctx.fill(); setF('700', 22, '#9a5a00'); txt(nlab, UCX, cy + 8, 'center'); } else { setF('400', 22, '#0a1a2f'); txt(fmt(num) + ' ' + row.u, UCX, cy + 8, 'center'); }
         setF('700', 22, '#0a1a2f'); txt(num === null ? '—' : fmt(num * row.q) + ' ' + row.u, COL_T, cy + 8, 'right');
