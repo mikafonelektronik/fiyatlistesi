@@ -1320,20 +1320,41 @@ input[type=search]::-webkit-input-placeholder{opacity:1}
       ensure((pct ? 4 : 3) * 54 * Object.keys(totals).length + 18 * Object.keys(totals).length);
       Object.keys(totals).forEach(function(c){
         var raw = totals[c], net = raw * (1 - pct / 100), kdv = net * 0.2, gross = net + kdv;
-        var lines = [['Toplam', fmt(raw) + ' ' + c, false]];
-        if (pct) lines.push(['İskonto sonrası', fmt(net) + ' ' + c, false]);
-        lines.push(['KDV %20', fmt(kdv) + ' ' + c, false]);
-        lines.push(['KDV dahil toplam', fmt(gross) + ' ' + c, true]);
-        lines.forEach(function(l){
-          ensure(54);
-          if (l[2]) setF('700', 30, '#0a1a2f'); else setF('400', 24, '#5b6a80');
-          txt(l[0], M, y + 30);
-          if (l[2]) setF('700', 30, '#0a1a2f'); else setF('400', 24, '#0a1a2f');
-          txt(l[1], COL_T, y + 30, 'right');
-          y += 54;
+        var cols = [['Ara toplam', fmt(raw) + ' ' + c, false], ['İskonto (%' + (pct || 0) + ')', '- ' + fmt(raw - net) + ' ' + c, false], ['KDV %20', fmt(kdv) + ' ' + c, false], ['KDV dahil toplam', fmt(gross) + ' ' + c, true]];
+        ensure(96);
+        var cw = (RIGHT - M) / 4;
+        cols.forEach(function(l, i){
+          var x = i === 3 ? RIGHT : M + i * cw, al = i === 3 ? 'right' : 'left';
+          setF('400', 20, '#5b6a80'); txt(l[0], x, y + 22, al);
+          setF('700', 30, '#0a1a2f'); txt(l[1], x, y + 64, al);
         });
-        y += 18;
+        y += 96 + 18;
       });
+      /* şartlar: tek satır olarak yazılır, sayfa genişliğini aşarsa maddeler sonraki satıra geçer */
+      var terms = [['Garanti süresi:', '2 Yıl'], ['Döviz kuru:', 'Fatura tarihindeki kur geçerlidir.'], ['Test ve devreye alma:', 'dahil değil, isteğe göre eklenir.'], ['Üretici spesifikasyonu:', 'geçerlidir.']];
+      var TW = RIGHT - M, termLines = [[]], cur = 0, sepW = 0;
+      setF('400', 20, '#8a94a6'); sepW = ctx.measureText(' | ').width;
+      terms.forEach(function(t){
+        setF('700', 20, '#0a1a2f'); var it = { l: t[0], v: ' ' + t[1] };
+        setF('700', 20, '#0a1a2f'); var lw = ctx.measureText(it.l).width;
+        setF('400', 20, '#5b6a80'); it.w = lw + ctx.measureText(it.v).width;
+        var last = termLines[termLines.length - 1];
+        var add = last.length ? sepW + it.w : it.w;
+        if (last.length && cur + add > TW) { termLines.push([it]); cur = it.w; } else { last.push(it); cur += add; }
+      });
+      ensure(60 + termLines.length * 34);
+      setF('700', 24, '#0a1a2f'); txt('Genel Satış ve Ödeme Şartları :', M, y + 26);
+      y += 50;
+      termLines.forEach(function(ln){
+        var x = M;
+        ln.forEach(function(it, i){
+          if (i) { setF('400', 20, '#8a94a6'); txt(' | ', x, y + 22); x += sepW; }
+          setF('700', 20, '#0a1a2f'); txt(it.l, x, y + 22); x += ctx.measureText(it.l).width;
+          setF('400', 20, '#5b6a80'); txt(it.v, x, y + 22); x += ctx.measureText(it.v).width;
+        });
+        y += 34;
+      });
+      y += 10;
       if (rows.some(function(r){ return parseNum(r.p) === null; })) { ensure(30); setF('400', 15, '#5b6a80'); txt('Fiyat sorunuz olan ürünler toplama dahil değildir.', M, y + 10); y += 30; }
       finishPage();
 
