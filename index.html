@@ -1330,30 +1330,24 @@ input[type=search]::-webkit-input-placeholder{opacity:1}
         });
         y += 96 + 18;
       });
-      /* şartlar: tek satır olarak yazılır, sayfa genişliğini aşarsa maddeler sonraki satıra geçer */
+      /* şartlar: iki sütun, sol sütunda 1. ve 3. madde, sağ sütunda 2. ve 4. madde */
       var terms = [['Garanti süresi:', '2 Yıl'], ['Döviz kuru:', 'Fatura tarihindeki kur geçerlidir.'], ['Test ve devreye alma:', 'dahil değil, isteğe göre eklenir.'], ['Üretici spesifikasyonu:', 'geçerlidir.']];
-      var TW = RIGHT - M, termLines = [[]], cur = 0, sepW = 0;
-      setF('400', 20, '#8a94a6'); sepW = ctx.measureText(' | ').width;
-      terms.forEach(function(t){
-        setF('700', 20, '#0a1a2f'); var it = { l: t[0], v: ' ' + t[1] };
-        setF('700', 20, '#0a1a2f'); var lw = ctx.measureText(it.l).width;
-        setF('400', 20, '#5b6a80'); it.w = lw + ctx.measureText(it.v).width;
-        var last = termLines[termLines.length - 1];
-        var add = last.length ? sepW + it.w : it.w;
-        if (last.length && cur + add > TW) { termLines.push([it]); cur = it.w; } else { last.push(it); cur += add; }
+      var TW = RIGHT - M, termW = terms.map(function(t){
+        setF('700', 20, '#0a1a2f'); var lw = ctx.measureText(t[0]).width;
+        setF('400', 20, '#5b6a80'); return lw + ctx.measureText(' ' + t[1]).width;
       });
-      ensure(60 + termLines.length * 34);
+      var colX = M + Math.max(TW * 0.5, Math.max(termW[0], termW[2]) + 30);
+      ensure(60 + 2 * 34);
       setF('700', 24, '#0a1a2f'); txt('Genel Satış ve Ödeme Şartları :', M, y + 26);
       y += 50;
-      termLines.forEach(function(ln){
-        var x = M;
-        ln.forEach(function(it, i){
-          if (i) { setF('400', 20, '#8a94a6'); txt(' | ', x, y + 22); x += sepW; }
-          setF('700', 20, '#0a1a2f'); txt(it.l, x, y + 22); x += ctx.measureText(it.l).width;
-          setF('400', 20, '#5b6a80'); txt(it.v, x, y + 22); x += ctx.measureText(it.v).width;
+      for (var r = 0; r < 2; r++) {
+        [[terms[r * 2], M], [terms[r * 2 + 1], colX]].forEach(function(pair){
+          var t = pair[0], x = pair[1];
+          setF('700', 20, '#0a1a2f'); txt(t[0], x, y + 22); x += ctx.measureText(t[0]).width;
+          setF('400', 20, '#5b6a80'); txt(' ' + t[1], x, y + 22);
         });
         y += 34;
-      });
+      }
       y += 10;
       if (rows.some(function(r){ return parseNum(r.p) === null; })) { ensure(30); setF('400', 15, '#5b6a80'); txt('Fiyat sorunuz olan ürünler toplama dahil değildir.', M, y + 10); y += 30; }
       finishPage();
