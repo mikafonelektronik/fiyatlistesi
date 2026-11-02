@@ -68,7 +68,7 @@ h1,h2,h3,.display{font-family:'Poppins',system-ui,sans-serif;letter-spacing:-.02
 .results-head span{color:var(--mute);font-size:14px}
 .rgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
 @media(max-width:900px){.rgrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(max-width:560px){.rgrid{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:760px){.rgrid{grid-template-columns:minmax(0,1fr)}}
 .rcard{display:flex;gap:14px;align-items:center;background:var(--card);border-radius:16px;padding:12px;box-shadow:var(--shadow);transition:transform .18s,box-shadow .18s;min-width:0}
 .rcard:hover{transform:translateY(-2px);box-shadow:var(--shadow-hover)}
 .rcard .th{width:72px;height:72px;flex:0 0 72px;border-radius:12px;background:var(--sand);display:flex;align-items:center;justify-content:center;overflow:hidden}
@@ -458,6 +458,9 @@ button.dl-btn{border:0;cursor:pointer;font:600 15px/1 'Poppins',sans-serif}
 .rcard .tx b{white-space:normal;overflow-wrap:anywhere;line-height:1.25}
 .rcard .tx small{white-space:normal;overflow-wrap:anywhere}
 .rcard .pr{white-space:normal;text-align:right;max-width:34%}
+@media (min-width:761px) and (max-width:1400px){.rgrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:1400px){.rcard{gap:10px;padding:10px}.rcard .th{width:60px;height:60px;flex-basis:60px}.rcard .pr{max-width:30%;font-size:13px}.rcard .rfav{width:30px;height:30px}.rcard .rfav svg{width:16px;height:16px}}
+@media (max-width:560px){.rcard .th{width:52px;height:52px;flex-basis:52px}.rcard .pr{max-width:26%;font-size:12px}}
 
 .flw{margin-bottom:10px}
 .flw .fl{margin-bottom:0}
