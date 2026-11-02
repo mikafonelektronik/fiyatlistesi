@@ -139,7 +139,7 @@ h1,h2,h3,.display{font-family:'Poppins',system-ui,sans-serif;letter-spacing:-.02
 .chips a:hover{border-color:var(--cyan)}
 
 .plist{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:6px}
-.pc{position:relative;display:grid;grid-template-columns:240px minmax(0,1fr);background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;transition:box-shadow .22s,transform .22s;scroll-margin-top:110px;min-width:0}
+.pc{position:relative;display:grid;grid-template-columns:clamp(104px,34%,240px) minmax(0,1fr);background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;transition:box-shadow .22s,transform .22s;scroll-margin-top:110px;min-width:0}
 .pc:hover{box-shadow:var(--shadow-hover);transform:translateY(-2px)}
 .pc.flash{outline:3px solid var(--cyan);outline-offset:4px}
 .pc.hide{display:none}
