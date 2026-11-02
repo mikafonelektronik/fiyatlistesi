@@ -1334,6 +1334,15 @@ input[type=search]::-webkit-input-placeholder{opacity:1}
         });
         y += 96 + 18;
       });
+      if (rows.some(function(r){ return parseNum(r.p) === null; })) {
+        ensure(70);
+        /* not, "Fiyat sorunuz" etiketi gibi turuncu zeminli yuvarlak çerçeve içinde */
+        var nt = 'Fiyat sorunuz olan ürünler toplama dahil değildir.';
+        setF('400', 22, '#9a5a00'); var nw = ctx.measureText(nt).width + 36, nh = 44, nx = M, ny = y + 4, nr = 22;
+        ctx.fillStyle = '#fff4e0'; ctx.beginPath(); ctx.moveTo(nx + nr, ny); ctx.lineTo(nx + nw - nr, ny); ctx.arc(nx + nw - nr, ny + nr, nr, -Math.PI / 2, 0); ctx.lineTo(nx + nw, ny + nh - nr); ctx.arc(nx + nw - nr, ny + nh - nr, nr, 0, Math.PI / 2); ctx.lineTo(nx + nr, ny + nh); ctx.arc(nx + nr, ny + nh - nr, nr, Math.PI / 2, Math.PI); ctx.lineTo(nx, ny + nr); ctx.arc(nx + nr, ny + nr, nr, Math.PI, 1.5 * Math.PI); ctx.closePath(); ctx.fill();
+        setF('400', 22, '#9a5a00'); txt(nt, nx + 18, ny + nh / 2 + 8);
+        y += nh + 20;
+      }
       /* şartlar: iki sütun, sol sütunda 1. ve 3. madde, sağ sütunda 2. ve 4. madde */
       var terms = [['Garanti süresi:', '2 Yıl'], ['Döviz kuru:', 'Fatura tarihindeki kur geçerlidir.'], ['Test ve devreye alma:', 'dahil değil, isteğe göre eklenir.'], ['Üretici spesifikasyonu:', 'geçerlidir.']];
       var TW = RIGHT - M, termW = terms.map(function(t){
@@ -1353,15 +1362,6 @@ input[type=search]::-webkit-input-placeholder{opacity:1}
         y += 34;
       }
       y += 10;
-      if (rows.some(function(r){ return parseNum(r.p) === null; })) {
-        ensure(70);
-        /* not, "Fiyat sorunuz" etiketi gibi turuncu zeminli yuvarlak çerçeve içinde */
-        var nt = 'Fiyat sorunuz olan ürünler toplama dahil değildir.';
-        setF('400', 22, '#9a5a00'); var nw = ctx.measureText(nt).width + 36, nh = 44, nx = M, ny = y + 4, nr = 22;
-        ctx.fillStyle = '#fff4e0'; ctx.beginPath(); ctx.moveTo(nx + nr, ny); ctx.lineTo(nx + nw - nr, ny); ctx.arc(nx + nw - nr, ny + nr, nr, -Math.PI / 2, 0); ctx.lineTo(nx + nw, ny + nh - nr); ctx.arc(nx + nw - nr, ny + nh - nr, nr, 0, Math.PI / 2); ctx.lineTo(nx + nr, ny + nh); ctx.arc(nx + nr, ny + nh - nr, nr, Math.PI / 2, Math.PI); ctx.lineTo(nx, ny + nr); ctx.arc(nx + nr, ny + nr, nr, Math.PI, 1.5 * Math.PI); ctx.closePath(); ctx.fill();
-        setF('400', 22, '#9a5a00'); txt(nt, nx + 18, ny + nh / 2 + 8);
-        y += nh + 20;
-      }
       finishPage();
 
       return PL.PDFDocument.create().then(function(doc){
