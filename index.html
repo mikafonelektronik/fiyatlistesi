@@ -919,6 +919,9 @@ input[type=search]::-webkit-input-placeholder{opacity:1}
     }
     hs.addEventListener('input', function(){
       homeSearch();
+      /* yazmayı bırakınca sonuçlara kaydır (mobilde Enter/Ara tuşu bazen tetiklenmiyor) */
+      clearTimeout(scrollT);
+      if (hs.value.trim()) scrollT = setTimeout(scrollToResults, 900);
     });
     hs.addEventListener('keydown', function(e){
       if (e.key === 'Enter') { e.preventDefault(); clearTimeout(scrollT); homeSearch(); hs.blur(); scrollToResults(); }
