@@ -515,6 +515,7 @@ input[type=search]::-webkit-input-placeholder{opacity:1}
 .acts .dsh:hover{border-color:var(--cyan);color:var(--blue)}
 .acts .dsh svg{width:18px;height:18px;flex:none}
 .acts .dsh.ic{width:38px;padding:0;justify-content:center}
+.totop{position:fixed;right:16px;bottom:96px;width:44px;height:44px;border-radius:50%;border:1px solid var(--line);background:#fff;color:var(--blue);box-shadow:0 6px 18px rgba(16,40,80,.18);display:none;align-items:center;justify-content:center;z-index:50;cursor:pointer}.totop.on{display:flex}.totop svg{width:20px;height:20px}
 </style>
 <link rel="icon" type="image/png" href="img/favicon.png">
 <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
@@ -1556,4 +1557,6 @@ input[type=search]::-webkit-input-placeholder{opacity:1}
 })();
 </script>
 <p class="copy" style="text-align:center;font-size:12px;color:#5b6a80;margin:28px 0 20px;padding:0 16px">© 2026 Mikafon · Tüm hakları saklıdır.</p>
+<button class="totop" type="button" aria-label="Sayfanın üstüne dön"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M7.41 15.41 12 10.83l4.59 4.58L18 14l-6-6-6 6z"/></svg></button>
+<script>(function(){var b=document.querySelector(".totop");if(!b)return;function u(){b.classList.toggle("on",window.scrollY>600)}window.addEventListener("scroll",u,{passive:true});b.addEventListener("click",function(){window.scrollTo({top:0,behavior:"smooth"})});u()})();</script>
 </body></html>
