@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mikafonelektronik.github.io/fiyatlistesi/sitemap.xml
