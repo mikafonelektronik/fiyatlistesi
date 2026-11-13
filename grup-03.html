@@ -1144,10 +1144,9 @@ input[type=search]::-webkit-input-placeholder{opacity:1}
       var cid = card.id || '';
       c.removeAttribute('id'); c.classList.remove('hide'); c.classList.add('pc-clone');
       if (withShare && cid) {
-        var sb = document.createElement('button'); sb.type = 'button'; sb.className = 'dsh shr ic';
+        var sb = document.createElement('button'); sb.type = 'button'; sb.className = 'dsh shr';
         sb.setAttribute('data-id', cid);
-        sb.setAttribute('aria-label', 'Bağlantıyı kopyala'); sb.title = 'Bağlantıyı kopyala';
-        sb.innerHTML = '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 1H4a2 2 0 0 0-2 2v14h2V3h12V1zm3 4H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2zm0 16H8V7h11v14z"/></svg>';
+        sb.innerHTML = '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 1H4a2 2 0 0 0-2 2v14h2V3h12V1zm3 4H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2zm0 16H8V7h11v14z"/></svg><span>Bağlantıyı kopyala</span>';
         var acts = c.querySelector('.acts'); var pbody = acts || c.querySelector('.pbody'); if (pbody) pbody.appendChild(sb);
       }
       return c;
@@ -1543,9 +1542,10 @@ input[type=search]::-webkit-input-placeholder{opacity:1}
     if (sh) {
       var id = sh.getAttribute('data-id') || '';
       var url = location.href.split('#')[0] + '#' + id;
+      var lbl = sh.querySelector('span');
       copyText(url, function(ok){
-        if (ok) { sh.title = 'Bağlantı kopyalandı ✓'; sh.setAttribute('aria-label', 'Bağlantı kopyalandı'); return; }
-        sh.title = 'Bağlantıyı seçip kopyalayın';
+        if (ok) { if (lbl) lbl.textContent = 'Bağlantı kopyalandı ✓'; return; }
+        if (lbl) lbl.textContent = 'Bağlantıyı seçip kopyalayın';
         var box = sh.parentNode.querySelector('.share-link');
         if (!box) { box = document.createElement('input'); box.type = 'text'; box.readOnly = true; box.className = 'share-link'; sh.parentNode.insertBefore(box, sh.nextSibling); }
         box.value = url; box.focus(); box.select();
