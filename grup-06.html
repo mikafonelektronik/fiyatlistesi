@@ -1596,16 +1596,16 @@ input[type=search]::-webkit-input-placeholder{opacity:1}
       var cid = card.id || '';
       c.removeAttribute('id'); c.classList.remove('hide'); c.classList.add('pc-clone');
       if (withShare && cid) {
-        var sb = document.createElement('button'); sb.type = 'button'; sb.className = 'dsh shr';
+        var sb = document.createElement('button'); sb.type = 'button'; sb.className = 'share';
         sb.setAttribute('data-id', cid);
-        sb.innerHTML = '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 1H4a2 2 0 0 0-2 2v14h2V3h12V1zm3 4H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2zm0 16H8V7h11v14z"/></svg><span>Bağlantıyı kopyala</span>';
-        var acts = c.querySelector('.acts'); var pbody = acts || c.querySelector('.pbody'); if (pbody) pbody.appendChild(sb);
+        sb.innerHTML = '<span>Bağlantıyı kopyala</span>';
+        var pbody = c.querySelector('.pbody'); if (pbody) pbody.appendChild(sb);
       }
       return c;
     }
     function openDetail(card){
       pdTitle.textContent = 'Ürün detayı';
-      pdBody.innerHTML = ''; pdBody.appendChild(cloneCard(card, true));
+      pdBody.innerHTML = ''; pdBody.appendChild(cloneCard(card, false));
       pd.classList.remove('cmp-mode'); pd.showModal(); pdBody.scrollTop = 0;
     }
     function openCompare(){
@@ -1990,7 +1990,7 @@ input[type=search]::-webkit-input-placeholder{opacity:1}
     var fb = e.target.closest('.fav');
     if (fb) { e.preventDefault(); e.stopPropagation(); favToggle(fb); return; }
     if (e.target.closest('#favopen')) { openList(); return; }
-    var sh = e.target.closest('.shr');
+    var sh = e.target.closest('.share');
     if (sh) {
       var id = sh.getAttribute('data-id') || '';
       var url = location.href.split('#')[0] + '#' + id;
