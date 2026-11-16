@@ -92,8 +92,8 @@ h1,h2,h3,.display{font-family:'Poppins',system-ui,sans-serif;letter-spacing:-.02
 .gridx{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
 .gcard{position:relative;display:flex;flex-direction:column;gap:18px;background:var(--card);border-radius:var(--radius);padding:22px;box-shadow:var(--shadow);border:1px solid rgba(10,26,47,.04);overflow:hidden;min-height:250px;transition:transform .22s ease,box-shadow .22s ease}
 .gcard::after{content:"";position:absolute;right:-60px;top:-60px;width:180px;height:180px;border-radius:50%;background:radial-gradient(circle,rgba(25,180,230,.16),transparent 70%);transition:transform .4s ease}
-.gcard:hover{transform:translateY(-4px);box-shadow:var(--shadow-hover)}
-.gcard:hover::after{transform:scale(1.4)}
+@media (hover:hover){.gcard:hover{transform:translateY(-4px);box-shadow:var(--shadow-hover)}
+.gcard:hover::after{transform:scale(1.4)}}
 .gcard .top{display:flex;justify-content:space-between;align-items:flex-start;position:relative;z-index:1}
 .gi{width:56px;height:56px;border-radius:16px;background:var(--cyan-soft);color:var(--blue);display:flex;align-items:center;justify-content:center}
 .gi svg{width:30px;height:30px}
@@ -106,8 +106,8 @@ h1,h2,h3,.display{font-family:'Poppins',system-ui,sans-serif;letter-spacing:-.02
 .gcard .foot{margin-top:auto;display:flex;justify-content:space-between;align-items:center;gap:12px;position:relative;z-index:1}
 .meta{font-size:14px;color:var(--mute)}
 .go{width:40px;height:40px;border-radius:50%;background:var(--ink);color:#fff;display:flex;align-items:center;justify-content:center;transition:transform .22s}
-.gcard:hover .go{transform:rotate(-45deg)}
-.gcard .gi{transition:background .3s ease,color .3s ease}.gcard:hover .gi{background:var(--ink);color:#fff}
+@media (hover:hover){.gcard:hover .go{transform:rotate(-45deg)}}
+.gcard .gi{transition:background .3s ease,color .3s ease}@media (hover:hover){.gcard:hover .gi{background:var(--ink);color:#fff}}
 .go svg{width:20px;height:20px}
 
 /* ---------- contact + legal ---------- */
