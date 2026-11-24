@@ -43,8 +43,12 @@ h1,h2,h3,.display{font-family:'Poppins',system-ui,sans-serif;letter-spacing:-.02
 .hero::before{content:"";position:absolute;inset:0;background:url('img/band.png') center/cover no-repeat;opacity:.55;mix-blend-mode:screen}
 .hero::after{content:"";position:absolute;inset:0;background:radial-gradient(900px 420px at 85% -10%,rgba(25,180,230,.35),transparent 60%),linear-gradient(180deg,rgba(10,26,47,.25),rgba(10,26,47,.85))}
 .hero .wrap{position:relative;z-index:1;padding:44px 0 36px}
-.eyebrow{display:inline-flex;align-items:center;gap:12px;font-size:19px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#9fe3f7}
-.eyebrow::before{content:"";width:40px;height:3px;background:var(--cyan)}
+.eyebrow{display:inline-flex;align-items:center;gap:12px;font-size:25px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#9fe3f7;animation:eyebrowIn .9s ease-out both,eyebrowGlow 4s ease-in-out 1s infinite}
+.eyebrow::before{content:"";width:34px;height:34px;flex:0 0 34px;background:var(--cyan);-webkit-mask:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M21.41 11.58l-9-9C12.05 2.22 11.55 2 11 2H4c-1.1 0-2 .9-2 2v7c0 .55.22 1.05.59 1.42l9 9c.36.36.86.58 1.41.58.55 0 1.05-.22 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.55-.23-1.06-.59-1.42zM5.5 7C4.67 7 4 6.33 4 5.5S4.67 4 5.5 4 7 4.67 7 5.5 6.33 7 5.5 7z'/></svg>") center/contain no-repeat;mask:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M21.41 11.58l-9-9C12.05 2.22 11.55 2 11 2H4c-1.1 0-2 .9-2 2v7c0 .55.22 1.05.59 1.42l9 9c.36.36.86.58 1.41.58.55 0 1.05-.22 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.55-.23-1.06-.59-1.42zM5.5 7C4.67 7 4 6.33 4 5.5S4.67 4 5.5 4 7 4.67 7 5.5 6.33 7 5.5 7z'/></svg>") center/contain no-repeat;filter:drop-shadow(0 0 8px rgba(56,189,248,.55));animation:eyebrowTag .9s cubic-bezier(.2,.7,.2,1) both}
+@keyframes eyebrowIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+@keyframes eyebrowTag{from{opacity:0;transform:rotate(-25deg) scale(.6)}to{opacity:1;transform:none}}
+@keyframes eyebrowGlow{0%,100%{color:#9fe3f7}50%{color:#ffffff}}
+@media (prefers-reduced-motion:reduce){.eyebrow,.eyebrow::before{animation:none}}
 .hero h1{font-size:clamp(34px,5.4vw,64px);line-height:1.04;margin:12px 0 12px;font-weight:700;max-width:none}
 .hero h1 em{font-style:normal;color:var(--cyan);background:linear-gradient(90deg,var(--cyan) 0%,var(--cyan) 40%,#fff 50%,var(--cyan) 60%,var(--cyan) 100%);background-size:250% 100%;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;animation:h1shine 4s ease-in-out .3s infinite}
 @keyframes h1shine{0%{background-position:100% 0}80%{background-position:0 0}100%{background-position:0 0}}
